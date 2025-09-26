@@ -9,7 +9,7 @@
   <version>1.0</version>
 
   <name>assignment1</name>
-  <!-- FIXME change it to the project's website -->
+
   <url>http://www.example.com</url>
 
   <properties>
@@ -19,16 +19,22 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
+      <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
       <version>5.10.0</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>5.10.0</version>
+      <scope>test</scope>
+    </dependency>    
   </dependencies>
 
   <build>
-    <pluginManagement>
       <plugins>
         
         <plugin>
@@ -71,6 +77,5 @@
           <version>3.0.0</version>
         </plugin>
       </plugins>
-    </pluginManagement>
   </build>
 </project>
