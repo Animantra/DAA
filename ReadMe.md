@@ -61,7 +61,8 @@ T(n) = T(n/5) + T(7n/10) + O(n)
 T(n) = 2T(n/2) + O(n) = Θ(nlogn)
 
 
-![algo](images/plot.png)
+![algo](plot.png)
 
-![algo2](images/plot2.png)
+![algo2](plot2.png)
+
 
