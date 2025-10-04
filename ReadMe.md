@@ -1,5 +1,3 @@
-java -cp "assignment1\target\classes" com.arlask.CLI mergesort 1000#Design and Analysis of Algorithms Assignment 1
-
 This project provides a few divide-and-conquer algorithms with classes for collecting metrics such as time, recursion depth, and comparisons.
 
 
@@ -64,5 +62,6 @@ T(n) = 2T(n/2) + O(n) = Θ(nlogn)
 ![algo](plot.png)
 
 ![algo2](plot2.png)
+
 
 
